@@ -47,6 +47,4 @@ Machine Learning
 Communication
 
 ![img.png](pic/img.png)
-=======
 
->>>>>>> d813b00c55581af3f731d1381a1ab9a49f1b4bb4
