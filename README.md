@@ -12,22 +12,35 @@ Your mission is to help Galaxy Bank improve its marketing conversion rates by al
 What are the success criteria?
 
 During our next meeting, you will have to show us some data (plot? report?) of what you've been building.
+
 What do you think will happen to the conversion rate?
+
 Your deliverables:
 
 A presentation with slides.
+
 Code that the DevOps team should be able to push to production.
+
 You've heard the CEO will be joining the meeting. It's a reminder that, if you do well, you could quickly expect the promotion you have been hoping for.
 
 <h1>Technical specification</h1>
+
 Implement a multi-variable linear regression model on a large and complex data set
+
 Analyze and evaluate the implications of your model on real-life users
+
 Analyze and evaluate the risk to the business of the implications, assumptions, and decisions in your model
+
 What to expect: the five stages of your project
+
 In this project, you should expect to cover the five major stages of working with data:
 
 Data Collecting / Cleaning
+
 Data Exploration
+
 Data Visualization
+
 Machine Learning
+
 Communication
