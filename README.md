@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1>Visa For Lisa</h1>
 This project is about a bank (Galaxy Bank) whose management wants to explore converting some of its deposit customers to become personal loan customers (while retaining them as depositors). In short, they want to upsell customers to purchase more banking products from Galaxy Bank.
 
@@ -46,3 +47,6 @@ Machine Learning
 Communication
 
 ![img.png](pic/img.png)
+=======
+
+>>>>>>> d813b00c55581af3f731d1381a1ab9a49f1b4bb4
