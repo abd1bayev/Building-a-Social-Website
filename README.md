@@ -42,4 +42,7 @@ We are going to create a social application that will allow users to share image
 <img width="1950" alt="img" src="https://user-images.githubusercontent.com/99121169/220628147-e74f4344-3559-45be-8d92-24c98736e460.png">
 
 
-<h3>This chapter will address the first point on the list.</h3>
+<h3>Summary:</h3>
+
+I added user account features to create a social website, including user registration, password management, profile editing, and authentication. I have added social features to this site so they can share pictures and communicate with each other. Users will be able to bookmark any image on the web and share it with other users. They will also be able to see the activity of users they follow on the platform and dislike photos shared by them.
+I added user account features to create a social website, including user registration, password management, profile editing, and authentication. I have added social features to this site so they can share pictures and communicate with each other. Users will be able to bookmark any image on the web and share it with other users. They will also be able to see the activity of users they follow on the platform and dislike photos shared by them.
