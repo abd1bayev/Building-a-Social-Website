@@ -79,6 +79,11 @@ def register(request):
 
 @login_required
 def edit(request):
+    try:
+        profile = request.user.profile
+    except Profile.DoesNotExist:
+        profile = Profile(user=request.user)
+        profile.save()
     if request.method == 'POST':
         user_form = UserEditForm(instance=request.user,
                                  data=request.POST)
