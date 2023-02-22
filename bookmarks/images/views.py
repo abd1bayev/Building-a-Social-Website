@@ -15,9 +15,9 @@ from django.conf import settings
 
 
 # connect to redis
-r = redis.Redis(host=settings.REDIS_HOST,
-                port=settings.REDIS_PORT,
-                db=settings.REDIS_DB)
+# r = redis.Redis(host=settings.REDIS_HOST,
+#                 port=settings.REDIS_PORT,
+#                 db=settings.REDIS_DB)
 
 
 @login_required
@@ -48,14 +48,14 @@ def image_create(request):
 def image_detail(request, id, slug):
     image = get_object_or_404(Image, id=id, slug=slug)
     # increment total image views by 1
-    total_views = r.incr(f'image:{image.id}:views')
+    # total_views = r.incr(f'image:{image.id}:views')
     # increment image ranking by 1
-    r.zincrby('image_ranking', 1, image.id)
+    # r.zincrby('image_ranking', 1, image.id)
     return render(request,
                   'images/image/detail.html',
                   {'section': 'images',
-                   'image': image,
-                   'total_views': total_views})
+                   'image': image,})
+                   # 'total_views': total_views})
 
 
 @login_required
@@ -109,8 +109,8 @@ def image_list(request):
 @login_required
 def image_ranking(request):
     # get image ranking dictionary
-    image_ranking = r.zrange('image_ranking', 0, -1,
-                             desc=True)[:10]
+    # image_ranking = r.zrange('image_ranking', 0, -1,
+    #                          desc=True)[:10]
     image_ranking_ids = [int(id) for id in image_ranking]
     # get most viewed images
     most_viewed = list(Image.objects.filter(
